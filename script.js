@@ -36,8 +36,6 @@ const palavras = [
 function sorteiaPalavra() {
     const palavraIndex = parseInt(Math.random() * palavras.length);
     palavraSorteada = palavras[palavraIndex].nome;
-
-    console.log(palavraSorteada);
     
 
 }
